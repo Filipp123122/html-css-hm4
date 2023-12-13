@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+.header_top {
+    margin-bottom: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+}
+
+.content_top{
+    padding-bottom: 162px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 93px;
+}
+
+.footer_top {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    gap: 48px; 
+}
+
+.title_top {
+    margin-bottom: 16px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 522px;
+}
+
+.text_top {
+    margin-bottom: 37px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 466px;
+}
+
+.buttons {
+    border: none;
+    background: none;
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+
+.Rectangle3 {
+    width: 140px; 
+    height: 50px; 
+    background: #F25822; 
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.20); 
+    border-radius: 50px;
+}
+
+.StartNow {
+    color: white; 
+    font-size: 15px; 
+    font-family: Gilroy-Bold; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watch {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 51px 0px 51px;
+}
+
+.link_home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.header {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background: #FFF;
+}
+
+.info {
+    background: #FAFAFA;
+    padding-top: 92px;
+    padding-bottom: 100px;
+}
+
+.item_header {
+    background: #FFF;
+    padding: 40px 31px 25px 29px;
+}
+
+.middle {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.logo_item {
+    margin-bottom: 25px;
+}
+
+.subtitle_item {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.text_item {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    width: 310px;
+    margin-bottom: 25px;
+}
+
+.more_item {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+}
+
+.title_content {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.text_content {
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.menu_info {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 30px
+}
+
+.item_info {
+    background: #FFF;
+    display: grid;
+    justify-items: center;
+}
+
+.item_middle {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.text_info {
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.buttons_info {
+    border: none;
+    background: none;
+    padding-top: 39px;
+    padding-bottom: 50px;
+}
+
+
